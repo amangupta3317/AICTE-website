@@ -1,0 +1,170 @@
+body{
+    background-color: aquamarine;
+    margin: 0%;
+}
+#black{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#logo{
+    padding: .5em;
+    /* background-color: rgb(241, 241, 241); */
+    margin-left: 10%;
+}
+.logo1{
+    background-color: rgb(247, 237, 237);
+}
+#search{
+    float: right;
+    margin: 2.5em ;
+    border-radius: 10px;
+}
+#big{
+    height: 30em;
+    width: 100%;
+}
+.box{
+    border: 2px solid black;
+   background-color: whitesmoke;
+    margin: 0 4em 0 4em;
+    height: 80em;
+    
+}
+.menubar{
+    width: 100%;
+    overflow: auto;
+    margin: 0%;
+    padding: 0%;
+}
+.menubar a{
+    cursor: pointer;
+
+}
+.menubar li:hover{
+    background-color: rgb(238, 9, 78);
+    zoom: 110%;
+}
+.menubar ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content:space-around; */
+}
+.menubar ul li{
+    background-color: orange;
+    margin-right: .1%;
+    padding: .8em;
+}
+.inner{
+    display: grid;
+    grid-template-columns: auto 2fr 1.5fr;
+    
+}
+.ql ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+   
+}
+.right ul{
+    list-style-type: none;
+}
+.middle{
+    border: 1px blue solid;
+    background-color: rgba(128, 199, 240, 0.699);
+    flex-grow: 2;
+    text-align: center;
+    color: white;
+}
+.inner button{
+    cursor: pointer;
+    background-color:rgb(163, 214, 112);
+    margin: 1em;
+   
+}
+.inner button:hover{
+    background-color: darkorange;
+    
+}
+.ql a,.right a{
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+
+    
+}
+.ql li,.right li{
+    padding-bottom: 1em;
+}
+.tag{
+    text-align: center;
+    text-decoration: underline;
+}
+.para{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    
+  
+}
+.boxes{
+    margin: 1em;
+    border: 0.5px solid black;
+    padding: .5em;
+    margin-top: 5em;
+}
+.pics{
+    margin-top: 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pics img{
+    
+    
+    height: 10em;
+    width: auto;
+    margin-left: 8px;
+}
+.all{
+    position: relative;
+}
+.all h3{
+    font-family:sans-serif;
+    position: absolute;
+    top: 0%;
+    color: white;
+    padding-left: 35%;
+    padding-right: 10%;
+}
+.all p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 4.5em;
+    /* width: 90%; */
+    font-size: small;
+    color: white;
+    padding-left: 35%;
+    padding-right: 8%;
+}
+.foot ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:2em ;
+    
+}
+.foot a{
+    list-style-type: none;
+    /* margin: 5em; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+  
+}
+.foot a:hover{
+    color: orangered;
+
+}
